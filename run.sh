@@ -8,4 +8,4 @@ sleep 5
 
 sleep 5
 
-./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go -ccl go
+./network.sh deployCC -ccn basic -ccp ../chaincode -ccl go

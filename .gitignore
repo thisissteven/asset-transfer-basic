@@ -14,5 +14,5 @@ system-genesis-block/*
 log.txt
 bin
 builders
-organizations/peerOrganizations
-organizations/ordererOrganizations
+organizations
+channel-artifacts
