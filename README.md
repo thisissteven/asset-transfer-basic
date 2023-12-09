@@ -10,6 +10,12 @@
 ./run.sh
 ```
 
+## Invoking the chaincode
+
+```bash
+./invoke-chaincode.sh
+```
+
 ## Bring down the network
 
 ```bash
