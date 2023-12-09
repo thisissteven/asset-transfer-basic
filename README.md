@@ -4,20 +4,14 @@
 ./install-fabric.sh
 ```
 
-## Bring up the network
+## Run the network
 
 ```bash
-./network.sh up -ca -s couchdb
+./run.sh
 ```
 
-## Create the channel
+## Bring down the network
 
 ```bash
-./network.sh createChannel -c mychannel
-```
-
-## Deploy the chaincode
-
-```bash
-./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go -ccl go
+./down.sh
 ```
