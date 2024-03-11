@@ -1,4 +1,4 @@
-cd test-network
+cd network
 
 ./network.sh down
 

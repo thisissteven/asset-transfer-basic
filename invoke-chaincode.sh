@@ -2,9 +2,11 @@ CHANNEL_NAME="newchannel"
 
 export PATH=${PWD}/bin:$PATH
 
-cd test-network
+cd network
 
 export FABRIC_CFG_PATH=$PWD/config/ 
+
+echo $FABRIC_CFG_PATH
 
 export CORE_PEER_TLS_ENABLED=true
 export CORE_PEER_LOCALMSPID="Org1MSP"
